@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+@font-face {
+    font-family: 'bebas' ;
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}   
+header{
+    background-image: linear-gradient(to bottom, #37c274, #154c2e, #217446);
+}
+
+h1{
+    color: white;
+    font-family: 'bebas', Times, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+
+}
+header>h3{
+    
+    color: white;
+    font-family: 'arial', Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+nav{
+    padding: 10px 10px 5px 30px;
+}
+
+nav>a{
+    font: normal, normal, normal, 14px, arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+    transition-delay: 0.1s;
+    
+    
+    
+}
+
+nav>a:hover{
+    box-shadow: 1px -1px 18px 3px rgb(0 0 0 / 44%);
+    background-color: #217446;
+}
+
+main{
+    margin: auto;
+    padding: 10px;
+    max-width: 800px;
+    min-width: 320px;
+    background-color: white;
+    box-shadow: 1px -1px 18px 3px rgb(0 0 0 / 44%);
+}
+
+
+footer{
+    background-color: white;
+    width: 810px;
+    margin: auto;    
+    box-shadow: 1px -1px 18px 3px rgb(0 0 0 / 44%);
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+h2{
+    
+    border-radius: 5px;
+}
+
+#conteudo{
+    font-size: normal;
+    background-color: white;
+    text-align: left;
+    color: black;
+    font-family: 'droid';
+    padding: 10px;
+}
+
+body{
+    background-color: wheat
+}
+
+p{
+    margin: 5px;
+    text-indent: 20px;
+    text-align: justify;
+    font: normal, normal, normal,16px, arial, sans-serif;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+span{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo2{
+    background-image:linear-gradient(to right, #b9f7d4, transparent) ;
+    font-family: 'droid';
+    font-size: medium;
+    
+}
+
+#bugdroid{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: auto;
+}
+
+#sfinal{
+    background-color: #84E1AD;;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    box-shadow: 1px -1px 18px 3px rgb(0 0 0 / 44%);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#sfinal ul{
+    list-style-position: inside;
+    columns: 2;
+
+}
+#rodape>p{
+    text-align: justify;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+#final{
+    background-image: linear-gradient(to right, #37c274, #154c2e, #217446);
+    text-align: center;
+    margin-top: 10px;
+
+    
+}

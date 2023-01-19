@@ -1,0 +1,85 @@
+
+/*  Seletores Personalizados(Simbolos que podem ser utilizados na CSS)
+    #   =   id
+    .   =   class
+    :   =   pseudo-class
+    ::  =   pseudo-element
+    >   =   children
+*/
+
+
+
+
+
+/* Medidas absolutas: 
+    cm, mm, in (polegada), px, (pt, pc (paica) não utilizar para material exibido em tela)
+    
+    Medidas Relativas::
+    em, ex rem, vw, vh, %
+    
+    Parametro e recomendações:
+    Font-size = usar px, em. (16px = 1em)
+    */
+
+/* *{
+    margin:0
+    padding:0
+    border:0
+ */
+body{
+    background-image: linear-gradient(to left, #26080D, #400207,#73020C,#070401); /* Degradê */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; /* peso da fonte, varia de letra normal a muito negrito (mais versátil que usar um <STRONG>, por exemplo, variando de 100-900) */
+    font-style: normal; /* estilo da fonte.. normal, italico.. */
+    font-size: 16px; /* tamanho da letra */
+    /* simplificando as 4 linhas de fonte usando o shorthand "font"
+        ordem = font-style, font-weight, font-size, font-family */
+    font: normal normal normal 16px arial, Helvetica, sans-serif; /*pode tirar os 4 parâmetros acima que não fará diff na fonte*/
+} 
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 95, 10);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.301) ;
+    outline: auto;
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+h2 {
+    color: red;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+
+main {
+    
+    color: white;
+    background: black;
+    border-radius: 10px; /* arredonda as bordinhas da div */
+    padding: 15px; /* acolchoamento, espacinho entre limite da tela e o texto */
+    width: 800px; /* largura */
+    height: auto; /* altura */
+    margin-top: 100px; 
+    margin-right: auto; /* centraliza a div no meio da tela independente do tamanho da janela*/
+    margin-bottom: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 15px black; /* sombra na div, primeiro parametro = sombra pro lado, segundo = sombra pra baixo, terceiro = espalhamento */
+    outline: auto; /* fora do elemento (padding e margin) */
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    padding: 10px;
+}
